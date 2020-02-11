@@ -11,6 +11,11 @@ TextReply = '• تّٰمٍٰـﮧاَٰمٍٰ وٍّاَٰنٍٰتّٰـہهَ�
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
+if text == 'معرفي' then
+TextReply = '#username'
+send(username.chat_id_,username.id_,'['..TextReply..']')
+return false
+end
 if text == 'شلونك' then
 TextReply = '• اَٰلْٰـحٌٰمٍٰـﮧﮧدِٰاَٰلْٰلْٰهَٰہۧ وٍّ୭اَٰنٍٰتّٰـهَٰہۧ 😼💛ֆ'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
@@ -22,7 +27,7 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'هلاو' then
-TextReply = 'هلوات يكيوت💘🙂'
+TextReply = 'هلوات يكيوت🙂💘'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
