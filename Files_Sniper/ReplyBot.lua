@@ -13,7 +13,7 @@ return false
 end
 if text == 'معرفي' then
 TextReply = '#username'
-send(username.chat_id_,username.id_,'['..TextReply..']')
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'شلونك' then
