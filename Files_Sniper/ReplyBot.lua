@@ -22,7 +22,7 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'هلاو' then
-TextReply = '• هَٰہۧـہ୪وٍّ୭اَٰتّٰ حٌٰبٌِٰـﮧيَٰ 🤗🌟ֆ'
+TextReply = 'هلاو يكيوت 💘🥺'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
@@ -37,7 +37,7 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'بوت' then
-TextReply = 'نعم تفضل وياك 💘'
+TextReply = 'نعم تفضل حبي 💘'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
